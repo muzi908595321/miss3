@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stair Race 3D Game</title>
+    <style>
+        /* 设置页面背景为黑色，文本为白色 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* 设置标题样式 */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* 设置介绍文本样式 */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #bbb; /* 使用灰色文本 */
+            max-width: 800px;
+        }
+
+        /* 设置游戏iframe容器 */
+        .game-container {
+            width: 90%; /* 设置宽度为页面的90% */
+            max-width: 1024px; /* 设置最大宽度 */
+            height: 500px; /* 设置高度 */
+            border: none;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px; /* 底部留白 */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <h1>Slice Rush</h1>
+
+    <!-- 嵌入游戏 -->
+    <iframe class="game-container" 
+            src="https://play.famobi.com/wrapper/slice-rush/A1000-10" 
+            width="100%" height="800" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen></iframe>
+  
+    <!-- 介绍玩法 -->
+    <p>Take the knife and chop your way through the kitchen! In 'Slice Rush' you have to time your cuts skillfully because your knife can quickly fly out of your hand if you are not careful enough. Try to fill the multipliers to get more points but be careful! If you hit the wrong surface, the multiplier is lost immediately! It's addicting and satisfying at the same time! How far will you get?</p>
+</body>
+</html>

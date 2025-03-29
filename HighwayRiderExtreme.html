@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stair Race 3D Game</title>
+    <style>
+        /* 设置页面背景为黑色，文本为白色 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        /* 设置标题样式 */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* 设置介绍文本样式 */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #bbb; /* 使用灰色文本 */
+            max-width: 800px;
+        }
+
+        /* 设置游戏iframe容器 */
+        .game-container {
+            width: 80%; /* 设置宽度为页面的80% */
+            max-width: 1024px; /* 设置最大宽度 */
+            height: 600px; /* 设置高度 */
+            border: none;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px; /* 底部留白 */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <h1>Highway Rider Extreme</h1>
+
+    <!-- 嵌入游戏 -->
+    <iframe class="game-container" 
+            src="https://play.famobi.com/highway-rider-extreme" 
+            width="100%" height="800" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups" allowfullscreen></iframe>
+
+  <!-- 介绍玩法 -->
+       <p>Put on a helmet and ride your motorbike in this super fast-paced racing game! Your time per level is limited, so don't crash and reach the finish line as fast as you can. Collect coins, dodge traffic and overtake other vehicles closely to earn bonus time. Buy upgrades and cool new bikes in the shop to race even faster. Unlock daily bonus levels and try to complete the map with a high score!</p>
+</body>
+
+</html>
